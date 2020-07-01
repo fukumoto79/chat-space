@@ -130,12 +130,15 @@
         padding: 10px 15px 10px 50px;
         position: relative;
         &__message{
-          padding-left: 10px;
+          height: 50px;
+          width: 100%;
+          padding: 0 130px 0 10px;
           border: none;
         }
         &__image{
           position: absolute;
-          left: 220px;
+          top: 25px;
+          left: 350px;
           &__file{
             display: none;
           }
@@ -145,6 +148,8 @@
         color: #fff;
         font-size: 16px;
         background-color: #38aef0;
+        height: 50px;
+        width: 100px;
         padding: 0 30px;
         border: none;
       }
