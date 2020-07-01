@@ -1,1 +1,27 @@
-＜チャット画面＞
+.chat-main
+  .chat-main__group-info
+    .main-top
+      .main-top__left
+        .main-top__left__top
+          test
+        .main-top__left__bottom
+          Member : masa
+      .main-top__right
+        %a(href="#") Edit
+  .chat-main__message-list
+    .main-main
+      .main-main__top
+        .main-main__top__left
+          masa&nbsp;
+        .main-main__top__right
+          2019/11/20(Wed) 17:43:34
+      .main-main__bottom
+        おはよう！
+  .chat-main__message-form
+    %form.new-form
+      .input-box
+        %input{type: "text", class: "input-box__message", placeholder: "type a message"}
+        %label{class: "input-box__image"}
+          = icon('fas', 'image')
+          %input{type: "file", class: "input-box__image__file"}
+      %input{type: "submit", class: "submit-btn", value: "Send"}
