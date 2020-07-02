@@ -82,13 +82,13 @@
       &__right{
         color: #38aef0;
         font-size: 16px;
-        height: 40px;
-        width: 72px;
-        margin: 28px 40px 28px 0;
-        padding: 10px 20px;
-        border: 1px solid #38aef0;
-        a{
+        &__edit{
           color: #38aef0;
+          border: 1px solid #38aef0;
+          height: 40px;
+          line-height: 20px;
+          margin: 28px 40px 28px 0;
+          padding: 10px 20px;
           text-decoration: none;
         }
       }

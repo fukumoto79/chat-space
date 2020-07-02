@@ -4,8 +4,10 @@
       .top-items__name
         masa
       .top-items__icons
-        <a href="#"><i class="fas fa-edit"></i></a>
-        <a href="#"><i class="fas fa-cog"></i></a>
+        = link_to '#' do
+          = icon('fas', 'edit')
+        = link_to '#' do
+          = icon('fas', 'cog')
   .side-bar__group-list
     .team
       .team__name
