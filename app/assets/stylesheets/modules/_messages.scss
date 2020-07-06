@@ -43,8 +43,9 @@
     height: calc(100vh - 100px);
     width: 300px;
     .team{
-      height: 65px;
-      width: 300px;
+      a{
+        text-decoration: none;
+      }
       &__name{
         color: #fff;
         font-size: 15px;
