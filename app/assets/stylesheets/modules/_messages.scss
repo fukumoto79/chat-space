@@ -156,4 +156,10 @@
       }
     }
   }
+  .chat-main__message-form{
+    background-color: #665544;
+    .input-box{
+      background-color: red($color: #665544);
+    }
+  }
 }
