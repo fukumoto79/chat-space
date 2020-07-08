@@ -99,20 +99,21 @@
     background-color: #fafafa;
     height: calc(100vh - 190px);
     width: calc(100vw - 300px);
-    .main-main{
-      padding: 35px 0 0 40px;
-      &__top{
+    overflow: scroll;
+    .MessageBox{
+      margin: 50px 0 0 40px;
+      .MessageInfo{
         display: flex;
-        &__left{
+        &___userName{
           color: #333;
           font-size: 16px;
         }
-        &__right{
+        &__date{
           color: #999;
           font-size: 12px;
         }
       }
-      &__bottom{
+      .Message__content{
         color: #434a54;
         font-size: 14px;
         padding: 12px 0 46px 0;
@@ -124,7 +125,7 @@
     height: 90px;
     width: calc(100vw - 300px);
     display: flex;
-    .new-form{
+    .Form{
       display: flex;
       align-items: center;
       .input-box{
@@ -154,12 +155,6 @@
         padding: 0 30px;
         border: none;
       }
-    }
-  }
-  .chat-main__message-form{
-    background-color: #665544;
-    .input-box{
-      background-color: red($color: #665544);
     }
   }
 }
