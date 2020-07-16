@@ -5,7 +5,8 @@
         .main-top__left__top
           test
         .main-top__left__bottom
-          Member : masa
+          Member : 
+          = current_user.name
       .main-top__right
       = link_to edit_group_path(@group), class: "main-top__right__edit" do
         Edit
